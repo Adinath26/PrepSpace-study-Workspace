@@ -118,8 +118,9 @@ Gemini generates multiple-choice questions with options, correct answers, explan
 ## Project Structure
 
 ```text
-PrepSpace/
-├── backend/
+PrepSpace-study-Workspace/
+├── README.md
+├── prepspace-backend/
 │   ├── config/
 │   ├── controllers/
 │   ├── middleware/
@@ -131,7 +132,7 @@ PrepSpace/
 │   ├── .env.example
 │   └── package.json
 │
-└── frontend/
+└── prepspace-frontend/
     ├── src/
     │   ├── components/
     │   ├── context/
@@ -153,14 +154,14 @@ PrepSpace/
 ### 1. Clone the repository
 
 ```bash
-git clone <https://github.com/Adinath26/PrepSpace-study-Workspace>
-cd PrepSpace
+git clone https://github.com/Adinath26/PrepSpace-study-Workspace.git
+cd PrepSpace-study-Workspace
 ```
 
 ### 2. Start the backend
 
 ```bash
-cd backend
+cd prepspace-backend
 npm install
 cp .env.example .env
 ```
@@ -184,7 +185,7 @@ http://localhost:5000
 Open another terminal:
 
 ```bash
-cd frontend
+cd prepspace-frontend
 npm install
 cp .env.example .env
 npm run dev
