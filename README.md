@@ -153,7 +153,7 @@ PrepSpace/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/Adinath26/PrepSpace-study-Workspace>
 cd PrepSpace
 ```
 
